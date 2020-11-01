@@ -115,3 +115,27 @@ form label, form p {
 .checkbox {
 	margin: 20px 0;
 }
+.botao{
+	background:orange;
+	color:white;
+	font-weight: bold;
+	border:none;
+	border-radius:5px;
+	padding:15px;
+	width:50%;
+	transition: 1s all;
+	cursor:pointer;
+}
+.botao:hover{
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+table{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+table td, th {
+	padding: 5px;
+	border: 2px solid black;
+}
